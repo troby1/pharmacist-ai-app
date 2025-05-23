@@ -6,8 +6,8 @@ import os
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # App Title
-st.set_page_config(page_title="Pharmacist AI Assistant", layout="centered")
-st.title("💊 Pharmacist AI Assistant")
+st.set_page_config(page_title="ASK A PHARMACIST", layout="centered")
+st.title("💊 ASK A PHARMACIST")
 st.markdown("This tool helps pharmacists review patient information and receive AI-supported treatment suggestions.")
 
 # Input: Patient Info
