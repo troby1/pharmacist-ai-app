@@ -28,7 +28,7 @@ weight_kg = round(weight_lbs * 0.453592, 2)
 
 # Allergies
 st.subheader("Allergy Information")
-common_allergies = ["N/A", "Penicillin", "Aspirin", "Ibuprofen", "Latex"]
+common_allergies = ["Penicillin", "Aspirin", "Ibuprofen", "Latex", "N/A"]
 selected_allergies = st.multiselect("Select Known Allergies", common_allergies)
 custom_allergies = st.text_input("Other Allergies (comma-separated)")
 allergy_list = selected_allergies + [a.strip() for a in custom_allergies.split(",") if a.strip() != ""]
