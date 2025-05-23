@@ -57,6 +57,7 @@ Please:
 2. Check for any allergy conflicts.
 3. Summarize your recommendations as if writing for a licensed pharmacist.
 4. Mention drug classes and typical dosages.
+5. Only recommend over the counter medicine.
 """
 
             try:
